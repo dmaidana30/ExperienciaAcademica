@@ -1,0 +1,7 @@
+C:\Documents and Settings\sistemas\Escritorio\ProyectoFinal\ProyectoFinal\ObligatorioDatos\bin\Debug\ObligatorioDatos.dll
+C:\Documents and Settings\sistemas\Escritorio\ProyectoFinal\ProyectoFinal\ObligatorioDatos\bin\Debug\ObligatorioDatos.pdb
+C:\Documents and Settings\sistemas\Escritorio\ProyectoFinal\ProyectoFinal\ObligatorioDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sistemas\Escritorio\ProyectoFinal\ProyectoFinal\ObligatorioDatos\obj\Debug\ObligatorioDatos.dll
+C:\Documents and Settings\sistemas\Escritorio\ProyectoFinal\ProyectoFinal\ObligatorioDatos\obj\Debug\ObligatorioDatos.pdb
+C:\Documents and Settings\sistemas\Escritorio\ProyectoFinal\ProyectoFinal\ObligatorioDatos\bin\Debug\ObligatorioEntidadesCompartidas.dll
+C:\Documents and Settings\sistemas\Escritorio\ProyectoFinal\ProyectoFinal\ObligatorioDatos\bin\Debug\ObligatorioEntidadesCompartidas.pdb

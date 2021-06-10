@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPUsuarios.master.cs" Inherits="MPUsuarios" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            width: 541px;
+            height: 23px;
+        }
+        .style3
+        {
+            height: 23px;
+        }
+        .style4
+        {
+            height: 23px;
+            width: 855px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <br />
+        <br />
+        <table style="width:100%;">
+            <tr>
+                <td class="style2" bgcolor="#00CC00">
+                </td>
+                <td class="style4" bgcolor="#00CC00">
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="25pt" 
+                        Text="Area de usuarios"></asp:Label>
+                </td>
+                <td class="style3" bgcolor="#00CC00">
+                    <asp:Label ID="Label2" runat="server" Text="Usuario:  "></asp:Label>
+                    <asp:Label ID="lblUsu" runat="server"></asp:Label>
+                    <br />
+                    <asp:Label ID="Label4" runat="server" Text="Nombre: "></asp:Label>
+                    <asp:Label ID="lblNombre" runat="server"></asp:Label>
+                    <br />
+                    <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click">Salir</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" bgcolor="#00CC00">
+                    <asp:Menu ID="Menu1" runat="server">
+                        <Items>
+                            <asp:MenuItem Text="ABMs" Value="ABMs">
+                                <asp:MenuItem NavigateUrl="~/frmABMpaquetes.aspx" Text="Paquetes" 
+                                    Value="Paquetes"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/frmABMempresas.aspx" Text="Empresas" 
+                                    Value="Empresas"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/frmABMusuarios.aspx" Text="Usuarios" 
+                                    Value="Usuarios"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Solicitudes" Value="Listados">
+                                <asp:MenuItem NavigateUrl="~/SolicitudesXFecha.aspx" Text="Listar Por Fecha" 
+                                    Value="Listar Por Fecha"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/EstadoSolicitudes.aspx" Text="Estado Solicitudes" 
+                                    Value="Estado Solicitudes"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/frmCambioEstado.aspx" Text="Cambio Estado" 
+                                    Value="Cambio Estado"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/frmSolicitudEntrega.aspx" 
+                                    Text="Registrar Solicitud" Value="Registrar Solicitud"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+                <td class="style3" colspan="2">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <asp:Label ID="lblError" runat="server"></asp:Label>
+        <br />
+    </div>
+    </form>
+</body>
+</html>
